@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/1002/holiday-illustrations-for-encamp", {data:[{}],fetch:[],mutations:void 0});
