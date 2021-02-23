@@ -1,0 +1,1 @@
+window.__NUXT__={staticAssetsBase:"\u002Fannazimmerman\u002F_nuxt\u002Fstatic\u002F1614043472",layout:"default",error:null,serverRendered:true,routePath:"\u002Fprojects\u002F1001\u002Fcamping-illustrations-for-encamp",config:{baseUrl:"http:\u002F\u002Flocalhost:3000"}};
