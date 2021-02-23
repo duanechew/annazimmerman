@@ -1,0 +1,1 @@
+window.__NUXT__={staticAssetsBase:"\u002Fannazimmerman\u002F_nuxt\u002Fstatic\u002F1614044182",layout:"default",error:null,serverRendered:true,routePath:"\u002Fprojects\u002F1004\u002Flead-acid-batteries-ebook",config:{baseUrl:"https:\u002F\u002Fduanechew.github.io\u002Fannazimmmerman"}};
