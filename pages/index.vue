@@ -2,6 +2,7 @@
   <div class="container">
     <div>
       <Logo />
+      <img src="/images/pooch.jpg" alt="">
       <h1 class="title">
         annaz
       </h1>
