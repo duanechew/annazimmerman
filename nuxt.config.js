@@ -21,6 +21,11 @@ export default {
     ]
   },
 
+  publicRuntimeConfig: {
+    baseUrl: 'https://duanechew.github.io/annazimmerman'
+    // baseUrl: 'http://localhost:3000/annazimmerman'
+  },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
