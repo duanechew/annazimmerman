@@ -1,5 +1,5 @@
 <template>
-  <a :href="`/projects/${project.id}/${project.slug}`" style="color: white;">
+  <a :href="`${$config.baseUrl}/projects/${project.id}/${project.slug}`" style="color: white;">
     <div class="card"
       ref="card"
       :style="`background-image: url('${$config.baseUrl}${project.previewImage}'); height: ${height}px`"

@@ -1,14 +1,14 @@
 <template>
   <header>
     <div class="logo">
-      <a href="/">
+      <a :href="`${$config.baseUrl}`">
         Logo Here
       </a>
     </div>
     <nav>
       <ul>
         <li><a href="#work">Work</a></li>
-        <li><a href="/about">About</a></li>
+        <li><a :href="`${$config.baseUrl}/about`">About</a></li>
       </ul>
     </nav>
   </header>
