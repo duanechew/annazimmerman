@@ -8,7 +8,7 @@
 
 <style lang="scss">
 html {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: white;
   letter-spacing: 0.2rem;
@@ -32,4 +32,10 @@ html {
   margin: 0 auto;
   padding: 0 20px;
 }
+
+.headline {
+  font-family: 'DM Serif Display', serif;
+  font-size: 40px;
+}
+
 </style>
