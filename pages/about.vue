@@ -4,7 +4,7 @@
     <div class="outer">
       <div class="upper">
         <div>
-          <img width="100%" :src="`${baseUrl}/pooch.jpg`" />
+          <img width="100%" :src="`${$config.baseUrl}/pooch.jpg`" />
         </div>
         <div>
           <div class="upper-headline">HELLO</div>
@@ -55,7 +55,7 @@
     </div>
 
     <CTAWithImage
-      :image="`${baseUrl}/images/pooch.jpg`"
+      :image="`${$config.baseUrl}/images/pooch.jpg`"
       :body="'Interested in working together? Want to learn more about the projects above?'"
     />
   </div>

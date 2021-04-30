@@ -3,7 +3,7 @@
     <div class="cta-with-image">
       <div class="image">
         <div>
-          <img width="100%" :src="image" />
+          <img width="100%" :src="`${$config.baseUrl}image`" />
         </div>
       </div>
       <div style="padding-left: 60px;">
