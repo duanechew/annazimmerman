@@ -11,7 +11,7 @@ html {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: white;
-  letter-spacing: 0.2rem;
+  /* letter-spacing: 0.2rem; */
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;

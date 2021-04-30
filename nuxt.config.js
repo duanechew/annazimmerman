@@ -19,11 +19,6 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
-      // {
-      //   rel: 'stylesheet',
-      //   href:
-      //     'https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap',
-      // },
       {
         rel: 'stylesheet',
         href:
@@ -35,6 +30,12 @@ export default {
   publicRuntimeConfig: {
     baseUrl: 'https://duanechew.github.io/annazimmerman'
     // baseUrl: 'http://localhost:3000/annazimmerman'
+  },
+
+  generate: {
+    routes: [
+      '/projects/projects/1001/camping-illustrations-for-encamp/'
+    ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
