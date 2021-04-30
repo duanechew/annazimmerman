@@ -34,7 +34,7 @@ export default {
 
   generate: {
     routes: [
-      '/projects/projects/1001/camping-illustrations-for-encamp/'
+      '/projects/1001/camping-illustrations-for-encamp/'
     ]
   },
 
