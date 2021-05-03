@@ -2,18 +2,6 @@
 module.exports = [
   {
     id: 1001,
-    slug: 'camping-illustrations-for-encamp',
-    title: 'Illustrations for Encamp',
-    shortDescription: 'Camping Illustrations for Encamp',
-    previewColor: '#63ADF5',
-    previewImage: '/images/camping-encamp/Camping-Thumbnail.png',
-    textA: 'A recent rebrand for Encamp resulted in a new look. SImplistic, two-tone, camping influenced illustrations were created specifically for a new website launch.',
-    textB: 'Using the outdoors visually while also including the simplistic nature of Encamp’s application was important. It was super fun to illustrate something I’m very passionate about - the healing and calming essence of the outdoors.',
-    topImage: '/images/camping-encamp/Camping-Top.png',
-    bottomImages: ['/images/camping-encamp/Camping-Bottom1.png', '/images/camping-encamp/Camping-Bottom2.png']
-  },
-  {
-    id: 1002,
     slug: 'holiday-illustrations-for-encamp',
     title: 'Holiday Illustrations for Encamp',
     shortDescription: 'Holiday Illustrations for Encamp',
@@ -25,7 +13,43 @@ module.exports = [
     bottomImages: ['/images/holiday-encamp/Holiday-Bottom1.png', '/images/holiday-encamp/Holiday-Bottom2.png']
   },
   {
+    id: 1002,
+    slug: 'bg-moto-service',
+    title: 'BG Moto Service',
+    shortDescription: 'BG Moto Service Logo',
+    previewColor: '#FFCE8C',
+    previewImage: '',
+    textA: 'BG Moto Service is a friend\'s motorcycle shop. He came to me with a need for a logo and visual identity for the shop.',
+    textB: null,
+    topImage: '',
+    bottomImages: []
+  },
+  {
     id: 1003,
+    slug: 'linkedin-progressive-ad',
+    title: 'BG Moto Service',
+    shortDescription: 'LinkedIn Progressive Ad',
+    previewColor: '#63ADF5',
+    previewImage: '',
+    textA: 'This five tile carousel ad designed specifically for LinkedIn mimics a comic and leads you to a CTA to demo Encamp\'s application.',
+    textB: 'It was fun to illustrate a journey sequence in a tile-like comic book form. This specific ad was a unique challenge.',
+    topImage: '',
+    bottomImages: []
+  },
+  {
+    id: 1004,
+    slug: 'EHS-iconography-for-encamp',
+    title: 'EHS Iconography',
+    shortDescription: 'EHS Iconography for Encamp',
+    previewColor: '#0E7ACA',
+    previewImage: '',
+    textA: 'These icons were an exploration of iconography ideas. Some of these icons represent facilities, environmental, health, and safety, record keeping, task management, and forms.',
+    textB: null,
+    topImage: '',
+    bottomImages: []
+  },
+  {
+    id: 1005,
     slug: 'branding-for-tooma',
     title: 'Branding for Tooma',
     shortDescription: 'Branding for Tooma',
@@ -37,7 +61,19 @@ module.exports = [
     bottomImages: ['/images/tooma/Tooma-Bottom1.png', '/images/tooma/Tooma-Bottom2.png']
   },
   {
-    id: 1004,
+    id: 1006,
+    slug: 'camping-illustrations-for-encamp',
+    title: 'Illustrations for Encamp',
+    shortDescription: 'Camping Illustrations for Encamp',
+    previewColor: '#63ADF5',
+    previewImage: '/images/camping-encamp/Camping-Thumbnail.png',
+    textA: 'A recent rebrand for Encamp resulted in a new look. SImplistic, two-tone, camping influenced illustrations were created specifically for a new website launch.',
+    textB: 'Using the outdoors visually while also including the simplistic nature of Encamp’s application was important. It was super fun to illustrate something I’m very passionate about - the healing and calming essence of the outdoors.',
+    topImage: '/images/camping-encamp/Camping-Top.png',
+    bottomImages: ['/images/camping-encamp/Camping-Bottom1.png', '/images/camping-encamp/Camping-Bottom2.png']
+  },
+  {
+    id: 1007,
     slug: 'lead-acid-batteries-ebook',
     title: 'Lead-Acid Batteries Ebook',
     shortDescription: 'Lead-Acid Batteries Ebook',
@@ -49,75 +85,39 @@ module.exports = [
     bottomImages: ['/images/ebook/Ebook-Bottom1.png', '/images/ebook/Ebook-Bottom2.png']
   },
   {
-    id: 1005,
-    slug: 'two',
-    title: 'Two',
-    shortDescription: 'Graphic Design',
-    previewColor: 'pink',
-    previewImage: '/images/pooch.jpg',
-    textA: 'This ebook is used as a guide to Lead-Acid Batteries. It will tell you how and why, regulatory requirements apply to lead-acid batteries. It consists of custom illustrations, copy layout, and infographics.',
-    textB: 'The ebook lives online and as an interactive pdf in hopes to guide the user easily throughout the document.',
-    topImage: '/images/ebook/Ebook-Top.png',
-    bottomImages: ['/images/ebook/Ebook-Bottom1.png', '/images/ebook/Ebook-Bottom2.png']
-  },
-  {
-    id: 1006,
-    slug: 'camping-illustrations-for-encamp',
-    title: 'Three',
-    shortDescription: 'Brand Design',
-    previewColor: 'orange',
-    previewImage: '/images/pooch.jpg',
-    textA: 'This ebook is used as a guide to Lead-Acid Batteries. It will tell you how and why, regulatory requirements apply to lead-acid batteries. It consists of custom illustrations, copy layout, and infographics.',
-    textB: 'The ebook lives online and as an interactive pdf in hopes to guide the user easily throughout the document.',
-    topImage: '/images/ebook/Ebook-Top.png',
-    bottomImages: ['/images/ebook/Ebook-Bottom1.png', '/images/ebook/Ebook-Bottom2.png']
-  },
-  {
-    id: 1007,
-    slug: 'camping-illustrations-for-encamp',
-    title: 'Four',
-    shortDescription: 'Website Design',
-    previewColor: 'yellow',
-    previewImage: '/images/pooch.jpg',
-    textA: 'This ebook is used as a guide to Lead-Acid Batteries. It will tell you how and why, regulatory requirements apply to lead-acid batteries. It consists of custom illustrations, copy layout, and infographics.',
-    textB: 'The ebook lives online and as an interactive pdf in hopes to guide the user easily throughout the document.',
-    topImage: '/images/ebook/Ebook-Top.png',
-    bottomImages: ['/images/ebook/Ebook-Bottom1.png', '/images/ebook/Ebook-Bottom2.png']
-  },
-  {
     id: 1008,
-    slug: 'camping-illustrations-for-encamp',
-    title: 'Five',
-    shortDescription: 'Print Design',
-    previewColor: 'cyan',
-    previewImage: '/images/pooch.jpg',
-    textA: 'This ebook is used as a guide to Lead-Acid Batteries. It will tell you how and why, regulatory requirements apply to lead-acid batteries. It consists of custom illustrations, copy layout, and infographics.',
-    textB: 'The ebook lives online and as an interactive pdf in hopes to guide the user easily throughout the document.',
-    topImage: '/images/ebook/Ebook-Top.png',
-    bottomImages: ['/images/ebook/Ebook-Bottom1.png', '/images/ebook/Ebook-Bottom2.png']
+    slug: 'st-patricks-day-tshirt-grahipc',
+    title: 'St. Patrick\'s Day Tshirt Graphic',
+    shortDescription: 'St. Patrick\'s Day Tshirt Graphic',
+    previewColor: '#48AA52',
+    previewImage: '',
+    textA: 'This tshirt design was created for Sigstr’s St. Patrick’s Day celebration. Sigstr is an email marketing company whose founder has Irish routes.',
+    textB: 'Celebrating St. Patrick’s Day is a must at Sigstr. Designing this fun tshirt graphic was a joy.',
+    topImage: '',
+    bottomImages: []
   },
-  { 
+  {
     id: 1009,
-    slug: 'camping-illustrations-for-encamp',
-    title: 'Six',
-    shortDescription: 'Project Manager',
-    previewColor: 'green',
-    previewImage: '/images/pooch.jpg',
-    textA: 'This ebook is used as a guide to Lead-Acid Batteries. It will tell you how and why, regulatory requirements apply to lead-acid batteries. It consists of custom illustrations, copy layout, and infographics.',
-    textB: 'The ebook lives online and as an interactive pdf in hopes to guide the user easily throughout the document.',
-    topImage: '/images/ebook/Ebook-Top.png',
-    bottomImages: ['/images/ebook/Ebook-Bottom1.png', '/images/ebook/Ebook-Bottom2.png']
+    slug: 'sustainability-tips-illustrations',
+    title: 'Sustainability Tips Illustrations',
+    shortDescription: 'Sustainability Tips Illustrations',
+    previewColor: '#FF9200',
+    previewImage: '',
+    textA: 'These illustrations were created for Encamp sustainability tips on Instagram. Each month, a new series of seasonal tips are released.',
+    textB: null,
+    topImage: '',
+    bottomImages: []
   },
   {
     id: 1010,
-    slug: 'camping-illustrations-for-encamp',
-    title: 'Seven',
-    shortDescription: 'Ladie Dah',
-    previewColor: 'grey',
-    previewImage: '/images/pooch.jpg',
-    textA: 'This ebook is used as a guide to Lead-Acid Batteries. It will tell you how and why, regulatory requirements apply to lead-acid batteries. It consists of custom illustrations, copy layout, and infographics.',
-    textB: 'The ebook lives online and as an interactive pdf in hopes to guide the user easily throughout the document.',
-    topImage: '/images/ebook/Ebook-Top.png',
-    bottomImages: ['/images/ebook/Ebook-Bottom1.png', '/images/ebook/Ebook-Bottom2.png']
+    slug: 'additional-illustrations-for-encamp',
+    title: 'Additional Illustrations for Encamp',
+    shortDescription: 'Additional Illustrations for Encamp',
+    previewColor: '#00B4A0',
+    previewImage: '',
+    textA: 'A recent rebrand for Encamp resulted in a new look. Simplistic, two-tone, encamping influenced illustrations were created specifically for a new website launch.',
+    textB: 'Using the outdoors visually while also including the simplistic nature of Enamp’s applications was important. It was super fun to illustrate something I’m very passionate about = the healing and calming essence of the outdoors.',
+    topImage: '',
+    bottomImages: []
   },
 ];

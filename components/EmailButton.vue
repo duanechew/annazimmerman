@@ -42,16 +42,16 @@ export default {
   a {
     display: block;
     text-align: center;
-    width: 250px;
+    width: 200px;
     border: solid 1px white;
     color: white;
     padding: 15px;
     text-transform: uppercase;
     font-size: 1rem;
-    letter-spacing: .2rem;
+    letter-spacing: .15rem;
     cursor: pointer;
     transition: all .5s ease;
-    font-weight: 600;
+    font-weight: 900;
     text-decoration: none;
     &:hover {
       background: white;

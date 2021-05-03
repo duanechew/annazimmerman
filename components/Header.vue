@@ -35,8 +35,9 @@ nav {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
     position: relative;
     padding: 5px;
     &:after {

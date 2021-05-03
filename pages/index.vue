@@ -11,16 +11,16 @@
             Illustration & Design by Anna Zimmerman
           </div>
           <div class="headline_bottom">
-            Based in Indianapolis, IN
-            Hello World
+            Based in Indiana
           </div>
         </div>
       </div>
       <div id="work"></div>
       <ProjectsGrid :projects="projects" />
       <CTAWithImage
-        :image="`${$config.imageUrl}/images/stretch.png`"
-        :body="'Interested in working together? Want to learn more about the projects above?'"
+        :image="`${$config.baseUrl}/images/stretch.png`"
+        :header="'Interested in working together?'"
+        :body="'Do you want to learn more about the projects above? Do you want to chat about hiking the Appalachian Trail?'"
       />
     </div>
   </div>
@@ -50,13 +50,18 @@ export default Vue.extend({
   margin: 0 auto 40px auto;
 }
 .headline_middle {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
   text-transform: uppercase;
   padding-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 3px;
 }
 .headline_bottom {
   font-size: 1.2rem;
   text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 3px;
 }
 button, button:active, button:focus, a, a:focus, a:active {
   appearance: none;

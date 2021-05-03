@@ -17,7 +17,7 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
-  background-color: rgb(26, 23, 24);
+  background-color: #231f20;
 }
 
 *,

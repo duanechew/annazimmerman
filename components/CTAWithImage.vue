@@ -2,12 +2,13 @@
   <div class="wrap1280">
     <div class="cta-with-image">
       <div class="image">
-        <div>
-          <img width="100%" :src="`${$config.baseUrl}image`" />
+        <div style="text-align: center;">
+          <img max-width="100%" width="500" :src="`${image}`" />
         </div>
       </div>
       <div style="padding-left: 60px;">
-        <p>{{ body}}</p>
+        <p class="cta-header">{{ header }}</p>
+        <p>{{ body }}</p>
         <EmailButton :buttonText="'Email Me'" />
       </div>
     </div>
@@ -22,6 +23,10 @@ export default {
       default: ''
     },
     body: {
+      type: String,
+      default: ''
+    },
+    header: {
       type: String,
       default: ''
     }
@@ -39,14 +44,21 @@ export default {
   padding: 100px 20px;
   margin-top: 180px;
   border-top: solid 1px white;
-  font-size: 2.5rem;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
+  font-family: 'Poppins';
   display: flex;
   flex-wrap: wrap;
   p {
-    padding-bottom: 40px;
+    padding-bottom: 50px;
   }
   div, .image {
     flex-basis: 50%;
+  }
+  .cta-header {
+    font-family: 'DM Serif Display';
+    font-size: 2.5rem;
+    color: #FFD166;
   }
   @media screen and (max-width: 800px) {
     div, .image {

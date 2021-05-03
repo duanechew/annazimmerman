@@ -3,7 +3,7 @@
     <div class="footer">
       <div class="footer-section">
         <p style="padding-bottom: 6px">Illustration and Design by Anna Zimerman</p>
-        <p>Made with <span style="color: rgb(230,6,104)">love</span> in Indiana</p>
+        <p>Made with love in Indiana</p>
       </div>
       <div class="footer-section links">
         <div v-for="(link, i) in links" v-bind:key="i" class="link">
