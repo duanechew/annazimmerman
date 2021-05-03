@@ -57,14 +57,14 @@ export default Vue.extend({
   &:first-child {
     margin-top: 40px;
   }
-  &:nth-child(2){
-    margin-top: 20px;
+  &:nth-child(3){
+    margin-top: 40px;
   }
   &:nth-child(4) {
-    margin-top:40px;
+    margin-top:80px;
   }
   &:last-child {
-    margin-top: 80px;
+    margin-top: 40px;
   }
 }
 </style>

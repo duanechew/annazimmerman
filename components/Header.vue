@@ -2,7 +2,7 @@
   <header>
     <div class="logo">
       <a :href="`${$config.baseUrl}`">
-        Logo Here
+        <img :src="`${$config.baseUrl}/images/az.png`">
       </a>
     </div>
     <nav>
@@ -22,6 +22,13 @@ header {
   padding: 0 20px;
   padding: 0 20px;
   justify-content: space-between;
+  img {
+    transition: all .3s ease;
+    width: 45px;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
 }
 
 nav {
