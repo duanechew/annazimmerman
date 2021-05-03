@@ -7,11 +7,9 @@
           <img width="100%" :src="`${$config.baseUrl}/pooch.jpg`" />
         </div>
         <div>
-          <div class="upper-headline">HELLO</div>
-          <div class="upper-heavy heavy">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, 
-            sed diam nonummy nibh euismod tincidunt ut laoreet dolore 
-            magna
+          <div class="headline is-yellow">Hello</div>
+          <div class="headline is-small">
+            I am a dedicated, enthusiastic, and ambitious graphic designer with a passion for beautifying and elevating your brand.
           </div>
           <div class="light">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
@@ -66,15 +64,6 @@
   display: flex;
 }
 
-.heavy {
-  font-size: 1.5rem;
-  font-weight: 800;
-}
-
-.light {
-  font-size: 1.3rem;
-}
-
 .upper {
   padding-bottom: 90px;
   margin-bottom: 90px;
@@ -87,14 +76,9 @@
   }
 }
 
-.upper-headline {
-  font-size: 2.5rem;
-  color: #c76253;
-  font-weight: 800;
-}
-
 .upper-heavy {
   padding: 40px 0;
+  font-family: 'DM Serif Display', serif;
 }
 
 .lower {

@@ -38,7 +38,6 @@ export default {
   padding: 100px 20px;
   justify-content: space-between;
   align-items: center;
-  font-size: 1.1rem;
   border-top: solid 1px white;
   p { margin: 0;}
   a {

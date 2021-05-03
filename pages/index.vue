@@ -2,15 +2,15 @@
   <div class="container">
     <div>
       <div class="wrap1280">
-        <div class="headline">
-          <div class="headline_top">
+        <div class="capsule">
+          <div class="capsule_top headline">
             I am a dedicated, enthusiastic, and ambitious graphic designer
             with a passion for beautifying and elevating your brand.
           </div>
-          <div class="headline_middle">
+          <div class="capsule_middle poppins-headline is-bold">
             Illustration & Design by Anna Zimmerman
           </div>
-          <div class="headline_bottom">
+          <div class="capsule_bottom poppins-headline">
             Based in Indiana
           </div>
         </div>
@@ -39,29 +39,21 @@ export default Vue.extend({
 })
 </script>
 
-<style lang="scss">
-.headline {
+<style lang="scss" scoped>
+.capsule {
   margin-top: 180px;
   margin-bottom: 180px;
   text-align: center;
 }
-.headline_top {
-  font-size: 2.5rem;
+.capsule_top {
   margin: 0 auto 40px auto;
 }
-.headline_middle {
-  font-size: 1.2rem;
-  font-weight: 600;
+.capsule_middle {
   text-transform: uppercase;
   padding-bottom: 20px;
-  font-family: 'Poppins', sans-serif;
-  letter-spacing: 3px;
 }
-.headline_bottom {
-  font-size: 1.2rem;
+.capsule_bottom {
   text-transform: uppercase;
-  font-family: 'Poppins', sans-serif;
-  letter-spacing: 3px;
 }
 button, button:active, button:focus, a, a:focus, a:active {
   appearance: none;

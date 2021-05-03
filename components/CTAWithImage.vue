@@ -7,7 +7,7 @@
         </div>
       </div>
       <div style="padding-left: 60px;">
-        <p class="cta-header">{{ header }}</p>
+        <p class="headline is-yellow">{{ header }}</p>
         <p>{{ body }}</p>
         <EmailButton :buttonText="'Email Me'" />
       </div>
@@ -44,9 +44,6 @@ export default {
   padding: 100px 20px;
   margin-top: 180px;
   border-top: solid 1px white;
-  font-size: 1.2rem;
-  letter-spacing: 3px;
-  font-family: 'Poppins';
   display: flex;
   flex-wrap: wrap;
   p {
@@ -54,11 +51,6 @@ export default {
   }
   div, .image {
     flex-basis: 50%;
-  }
-  .cta-header {
-    font-family: 'DM Serif Display';
-    font-size: 2.5rem;
-    color: #FFD166;
   }
   @media screen and (max-width: 800px) {
     div, .image {

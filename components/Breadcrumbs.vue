@@ -35,6 +35,8 @@ export default {
   text-decoration: none;
   transition: all .5s ease;
   font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 600;
   &:hover {
     color: #c76253;
   }
