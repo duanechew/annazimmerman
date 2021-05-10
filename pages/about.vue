@@ -4,19 +4,18 @@
     <div class="outer">
       <div class="upper">
         <div>
-          <img width="100%" :src="`${$config.baseUrl}/pooch.jpg`" />
+          <img width="100%" :src="`${$config.baseUrl}/images/profilephoto.png`" />
         </div>
         <div>
-          <div class="headline is-yellow">Hello</div>
-          <div class="headline is-small">
+          <div class="headline is-yellow first">Hello</div>
+          <div class="headline is-small second">
             I am a dedicated, enthusiastic, and ambitious graphic designer with a passion for beautifying and elevating your brand.
           </div>
           <div class="light">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-            sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-            magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-            quis nostrud exerci tation ullamcorper suscipit lobortis
-            nisl ut aliquip ex
+            I'm a native Clevelander, 2017 Appalachian Trail thru hiker, Step Mom, and Dog Mom.
+            I work on a wide range of design projects with a diverse and versatile skill set.
+            Having a background in Graphic Design and Art Direction, I know how to create 
+            illustrations and produce content that work perfectly for their intended environment.
           </div>
         </div>
       </div>
@@ -24,37 +23,35 @@
 
     <div class="lower">
       <div class="lower-left">
-        <div class="heavy">
-          An illustrative designer, a designy illustrator
+        <div class="headline is-pink">
+          Services
         </div>
-        <div class="light lower-light">
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-          sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-          magna aliquam erat volutpat. Ut wisi enim ad minim veniam,
-          quis nostrud exerci tation ullamcorper suscipit lobortis
-          nisl ut aliquip ex
+        <div style="padding-bottom:2.5rem;">
+          I've worked with marketing teams and product teams, in agencies and in-house,
+          both on teams and independently. I value accessible and inclusive design above all.
         </div>
         <Button buttonHref="home" buttonText="Download My Resume" />
       </div>
       <div class="lower-right">
-        <div class="light">
-          Illustration <br />
+        <div class="section">
+          <div class="headline is-pink">Illustration</div>
           Style Development, Product Illustration, Icons, Editorial
         </div>
-        <div class="light">
-          Brand Design <br />
+        <div class="section">
+          <div class="headline is-pink">Brand Design</div>
           Brand Development, Brand Campaigns, Social Campaigns
         </div>
-        <div class="light">
-          Visual Design <br />
-          UI, End-to-End Product Design, Style Guide Development
+        <div class="section">
+          <div class="headline is-pink">Design Layout</div>
+          Web Design, Print Collateral, Ebooks, Infographics
         </div>
       </div>
     </div>
 
     <CTAWithImage
-      :image="`${$config.baseUrl}/images/pooch.jpg`"
-      :body="'Interested in working together? Want to learn more about the projects above?'"
+      :image="`${$config.baseUrl}/images/stretch.png`"
+      :header="'Interested in working together?'"
+      :body="'Do you want to learn more about the projects above? Do you want to chat about hiking the Appalachian Trail?'"
     />
   </div>
 </template>
@@ -63,6 +60,7 @@
 .outer {
   display: flex;
 }
+
 
 .upper {
   padding-bottom: 90px;
@@ -73,6 +71,12 @@
   /* align-items: center; */
   div {
     flex-basis: 48%;
+  }
+  .first {
+    padding-top: 1rem;
+  }
+  .second {
+    padding: 2.5rem 0;
   }
 }
 
@@ -86,19 +90,17 @@
   justify-content: space-between;
 }
 
-.lower-left { flex-basis: 60%; }
-
-.lower-right {
-  flex-basis: 38%;
-  line-height: 2rem;
-  div {
-    padding-bottom: 30px;
-    &:last-child {
-      padding-bottom: 0;
-    }
+.lower-left {
+  flex-basis: 60%;
+  .headline {
+    padding-bottom: 1.5rem;
   }
 }
 
-.lower-light { padding: 40px 0;
+.lower-right {
+  flex-basis: 38%;
+  .section {
+    padding-bottom: 2.5rem;
+  }
 }
 </style>

@@ -14,54 +14,6 @@ module.exports = [
   },
   {
     id: 1002,
-    slug: 'bg-moto-service',
-    title: 'BG Moto Service',
-    shortDescription: 'BG Moto Service Logo',
-    previewColor: '#FFCE8C',
-    previewImage: '',
-    textA: 'BG Moto Service is a friend\'s motorcycle shop. He came to me with a need for a logo and visual identity for the shop.',
-    textB: null,
-    topImage: '',
-    bottomImages: []
-  },
-  {
-    id: 1003,
-    slug: 'linkedin-progressive-ad',
-    title: 'BG Moto Service',
-    shortDescription: 'LinkedIn Progressive Ad',
-    previewColor: '#63ADF5',
-    previewImage: '',
-    textA: 'This five tile carousel ad designed specifically for LinkedIn mimics a comic and leads you to a CTA to demo Encamp\'s application.',
-    textB: 'It was fun to illustrate a journey sequence in a tile-like comic book form. This specific ad was a unique challenge.',
-    topImage: '',
-    bottomImages: []
-  },
-  {
-    id: 1004,
-    slug: 'EHS-iconography-for-encamp',
-    title: 'EHS Iconography',
-    shortDescription: 'EHS Iconography for Encamp',
-    previewColor: '#0E7ACA',
-    previewImage: '',
-    textA: 'These icons were an exploration of iconography ideas. Some of these icons represent facilities, environmental, health, and safety, record keeping, task management, and forms.',
-    textB: null,
-    topImage: '',
-    bottomImages: []
-  },
-  {
-    id: 1005,
-    slug: 'branding-for-tooma',
-    title: 'Branding for Tooma',
-    shortDescription: 'Branding for Tooma',
-    previewColor: '#3C3483',
-    previewImage: '/images/tooma/Tooma-Thumbnail.png',
-    textA: 'Tooma is an app that provides easy, visual website documentation for teams. I created the brand identity for the app. This included a logo, mark, color palette, type style, and homepage mock up.',
-    textB: 'Tooma was looking for a recognizable brand that was a bit quirky and also requested a dinosaur mark to represent archiving. This brand identity does just that!',
-    topImage: '/images/tooma/Tooma-Top.png',
-    bottomImages: ['/images/tooma/Tooma-Bottom1.png', '/images/tooma/Tooma-Bottom2.png']
-  },
-  {
-    id: 1006,
     slug: 'camping-illustrations-for-encamp',
     title: 'Illustrations for Encamp',
     shortDescription: 'Camping Illustrations for Encamp',
@@ -73,7 +25,19 @@ module.exports = [
     bottomImages: ['/images/camping-encamp/Camping-Bottom1.png', '/images/camping-encamp/Camping-Bottom2.png']
   },
   {
-    id: 1007,
+    id: 1003,
+    slug: 'bg-moto-service',
+    title: 'BG Moto Service',
+    shortDescription: 'BG Moto Service Logo',
+    previewColor: '#FFCE8C',
+    previewImage: '/images/bgmoto/BGMoto-Thumbnail.png',
+    textA: 'BG Moto Service is a friend\'s motorcycle shop. He came to me with a need for a logo and visual identity for the shop.',
+    textB: null,
+    topImage: '/images/bgmoto/BGMoto-Top.png',
+    bottomImages: ['/images/bgmoto/BGMoto-Bottom-Left.png', '/images/bgmoto/BGMoto-Bottom-Right.png']
+  },
+  {
+    id: 1004,
     slug: 'lead-acid-batteries-ebook',
     title: 'Lead-Acid Batteries Ebook',
     shortDescription: 'Lead-Acid Batteries Ebook',
@@ -85,28 +49,64 @@ module.exports = [
     bottomImages: ['/images/ebook/Ebook-Bottom1.png', '/images/ebook/Ebook-Bottom2.png']
   },
   {
-    id: 1008,
+    id: 1005,
+    slug: 'linkedin-progressive-ad',
+    title: 'LinkedIn Progressive Ad',
+    shortDescription: 'LinkedIn Progressive Ad',
+    previewColor: '#63ADF5',
+    previewImage: '/images/linkedin/LinkedIn-thumbnail.png',
+    textA: 'This five tile carousel ad designed specifically for LinkedIn mimics a comic and leads you to a CTA to demo Encamp\'s application.',
+    textB: 'It was fun to illustrate a journey sequence in a tile-like comic book form. This specific ad was a unique challenge.',
+    topImage: '/images/linkedin/LinkedIn-Top.png',
+    bottomImages: ['/images/linkedin/LinkedIn-Bottom-Left.png', '/images/linkedin/LinkedIn-Bottom-Right.png']
+  },
+  {
+    id: 1006,
     slug: 'st-patricks-day-tshirt-grahipc',
     title: 'St. Patrick\'s Day Tshirt Graphic',
     shortDescription: 'St. Patrick\'s Day Tshirt Graphic',
     previewColor: '#48AA52',
-    previewImage: '',
+    previewImage: '/images/st-patricks/Sigstr-Thumbnail.png',
     textA: 'This tshirt design was created for Sigstr’s St. Patrick’s Day celebration. Sigstr is an email marketing company whose founder has Irish routes.',
     textB: 'Celebrating St. Patrick’s Day is a must at Sigstr. Designing this fun tshirt graphic was a joy.',
-    topImage: '',
-    bottomImages: []
+    topImage: '/images/st-patricks/Sigstr-Top.png',
+    bottomImages: ['/images/st-patricks/Sigstr-Bottom-Left.png', '/images/st-patricks/Sigstr-Bottom-Right.png']
   },
   {
-    id: 1009,
+    id: 1007,
+    slug: 'EHS-iconography-for-encamp',
+    title: 'EHS Iconography',
+    shortDescription: 'EHS Iconography for Encamp',
+    previewColor: '#0E7ACA',
+    previewImage: '/images/ehs-iconography/Iconography-Thumbnail.png',
+    textA: 'These icons were an exploration of iconography ideas. Some of these icons represent facilities, environmental, health, and safety, record keeping, task management, and forms.',
+    textB: null,
+    topImage: '/images/ehs-iconography/Iconography-Top.png',
+    bottomImages: ['/images/ehs-iconography/Iconography-Bottom-Left.png', '/images/ehs-iconography/Iconography-Bottom-Right.png']
+  },
+  {
+    id: 1008,
     slug: 'sustainability-tips-illustrations',
     title: 'Sustainability Tips Illustrations',
     shortDescription: 'Sustainability Tips Illustrations',
     previewColor: '#FF9200',
-    previewImage: '',
+    previewImage: '/images/sustainability/Sustainability-thumnbail.png',
     textA: 'These illustrations were created for Encamp sustainability tips on Instagram. Each month, a new series of seasonal tips are released.',
     textB: null,
-    topImage: '',
-    bottomImages: []
+    topImage: '/images/sustainability/Sustainability-Top.png',
+    bottomImages: ['/images/sustainability/Sustainability-Bottom-Left.png', '/images/sustainability/Sustainability-Bottom-Right.png']
+  },
+  {
+    id: 1009,
+    slug: 'branding-for-tooma',
+    title: 'Branding for Tooma',
+    shortDescription: 'Branding for Tooma',
+    previewColor: '#3C3483',
+    previewImage: '/images/tooma/Tooma-Thumbnail.png',
+    textA: 'Tooma is an app that provides easy, visual website documentation for teams. I created the brand identity for the app. This included a logo, mark, color palette, type style, and homepage mock up.',
+    textB: 'Tooma was looking for a recognizable brand that was a bit quirky and also requested a dinosaur mark to represent archiving. This brand identity does just that!',
+    topImage: '/images/tooma/Tooma-Top.png',
+    bottomImages: ['/images/tooma/Tooma-Bottom1.png', '/images/tooma/Tooma-Bottom2.png']
   },
   {
     id: 1010,
@@ -114,7 +114,7 @@ module.exports = [
     title: 'Additional Illustrations for Encamp',
     shortDescription: 'Additional Illustrations for Encamp',
     previewColor: '#00B4A0',
-    previewImage: '',
+    previewImage: '/images/encamp-illustrations/encamp-illustrations-thumbnail.png',
     textA: 'A recent rebrand for Encamp resulted in a new look. Simplistic, two-tone, encamping influenced illustrations were created specifically for a new website launch.',
     textB: 'Using the outdoors visually while also including the simplistic nature of Enamp’s applications was important. It was super fun to illustrate something I’m very passionate about = the healing and calming essence of the outdoors.',
     topImage: '',

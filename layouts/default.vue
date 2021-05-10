@@ -47,24 +47,10 @@ html {
   letter-spacing: 3px;
 }
 
-.is-pink {
-  color: #EF476F;
-}
-
-.is-yellow {
-  color: #FFD166
-}
-
-.is-green {
-  color: #06D6A0;
-}
-
-.is-blue{
-  color: #118AB2;
-}
-
-.is-navy {
-  color: #073B4C;
-}
+.is-pink { color: #EF476F; }
+.is-yellow { color: #FFD166 }
+.is-green { color: #06D6A0; }
+.is-blue{ color: #118AB2; }
+.is-navy { color: #073B4C; }
 
 </style>

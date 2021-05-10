@@ -9,10 +9,10 @@
     </div>
     <div class="img-cols">
       <div>
-        <!-- <img width="100%" :src="`${$config.baseUrl}${this.project.bottomImages[2]}`" /> -->
+        <img width="100%" :src="`${$config.baseUrl}${this.project.bottomImages[0]}`" />
       </div>
       <div>
-        <!-- <img width="100%" :src="`${$config.baseUrl}${this.project.bottomImages[1]}`" /> -->
+        <img width="100%" :src="`${$config.baseUrl}${this.project.bottomImages[1]}`" />
       </div>
     </div>
     <div class="bg-txt">
@@ -51,7 +51,9 @@ export default Vue.extend({
   width: 100%;
 }
 .bg-txt {
-  font-size: 2rem;
+  /* font-size: 2rem; */
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 5rem 0;
 }
 .img-cols {
