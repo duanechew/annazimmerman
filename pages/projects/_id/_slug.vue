@@ -31,7 +31,7 @@ export default Vue.extend({
       project: {}
     }
   },
-  beforeCreate() {
+  created() {
     projects.forEach((project) => {
       if (project.id.toString() === this.$route.params.id) {
         this.project = project;
