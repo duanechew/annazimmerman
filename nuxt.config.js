@@ -35,8 +35,8 @@ export default {
   },
 
   publicRuntimeConfig: {
-    baseUrl: 'https://duanechew.github.io/annazimmerman'
-    // baseUrl: 'http://localhost:3000/annazimmerman'
+    // baseUrl: 'https://duanechew.github.io/annazimmerman'
+    baseUrl: 'http://localhost:3000/annazimmerman'
   },
 
   generate: {

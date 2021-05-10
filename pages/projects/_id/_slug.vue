@@ -1,22 +1,26 @@
 <template>
   <div class="wrapper">
-    <Breadcrumbs :links="[{ title:this.project.title, href: `/projects/${this.project.id}/${this.project.slug}` }]" />
-    <div class="full-width-img">
-      <img width="100%" :src="`${$config.baseUrl}${this.project.topImage}`" />
-    </div>
-    <div class="bg-txt">
-      {{ this.project.textA }}
-    </div>
-    <div class="img-cols">
-      <div v-if="this.project.bottomImages">
-        <img width="100%" :src="`${$config.baseUrl}${this.project.bottomImages[0]}`" />
+    <div v-for="project in projects" v-bind:key="project.id">
+      <div v-if="project.id.toString() === $route.params.id">
+        <Breadcrumbs :links="[{ title:project.title, href: `/projects/${project.id}/${project.slug}` }]" />
+        <div class="full-width-img">
+          <img width="100%" :src="`${$config.baseUrl}${project.topImage}`" />
+        </div>
+        <div class="bg-txt">
+          {{ project.textA }}
+        </div>
+        <div class="img-cols">
+          <div v-if="project.bottomImages">
+            <img width="100%" :src="`${$config.baseUrl}${project.bottomImages[0]}`" />
+          </div>
+          <div v-if="project.bottomImages">
+            <img width="100%" :src="`${$config.baseUrl}${project.bottomImages[1]}`" />
+          </div>
+        </div>
+        <div class="bg-txt">
+          {{ project.textB }}
+        </div>
       </div>
-      <div v-if="this.project.bottomImages">
-        <img width="100%" :src="`${$config.baseUrl}${this.project.bottomImages[1]}`" />
-      </div>
-    </div>
-    <div class="bg-txt">
-      {{ this.project.textB }}
     </div>
   </div>
 </template>
@@ -28,16 +32,18 @@ const projects = require('@/static/data/projects')
 export default Vue.extend({
   data() {
     return {
-      project: {}
+      projects: projects,
+      projectId: this.$route.params.id
+      // project: {}
     }
   },
-  fetch() {
-    projects.forEach((project) => {
-      if (project.id.toString() === this.$route.params.id) {
-        this.project = project;
-      }
-    })
-  }
+  // fetch() {
+  //   projects.forEach((project) => {
+  //     if (project.id.toString() === this.$route.params.id) {
+  //       this.project = project;
+  //     }
+  //   })
+  // }
 })
 </script>
 
