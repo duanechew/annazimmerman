@@ -1,3 +1,5 @@
+import projects from "./static/data/projects"
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -38,18 +40,23 @@ export default {
   },
 
   generate: {
-    routes: [
-      '/projects/1001/holiday-illustrations-for-encamp',
-      '/projects/1002/camping-illustrations-for-encamp',
-      '/projects/1003/bg-moto-service',
-      '/projects/1004/lead-acid-batteries-ebook',
-      '/projects/1005/linkedin-progressive-ad',
-      '/projects/1006/st-patricks-day-tshirt-grahipc',
-      '/projects/1007/EHS-iconography-for-encamp',
-      '/projects/1008/sustainability-tips-illustrations',
-      '/projects/1009/branding-for-tooma',
-      '/projects/1010/additional-illustrations-for-encamp'
-    ]
+    routes() {
+      return projects.map(project => {
+        return `/projects/${project.id}/${project.slug}`
+      })
+    }
+    // routes: [
+    //   '/projects/1001/holiday-illustrations-for-encamp',
+    //   '/projects/1002/camping-illustrations-for-encamp',
+    //   '/projects/1003/bg-moto-service',
+    //   '/projects/1004/lead-acid-batteries-ebook',
+    //   '/projects/1005/linkedin-progressive-ad',
+    //   '/projects/1006/st-patricks-day-tshirt-grahipc',
+    //   '/projects/1007/EHS-iconography-for-encamp',
+    //   '/projects/1008/sustainability-tips-illustrations',
+    //   '/projects/1009/branding-for-tooma',
+    //   '/projects/1010/additional-illustrations-for-encamp'
+    // ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css

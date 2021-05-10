@@ -8,10 +8,10 @@
       {{ this.project.textA }}
     </div>
     <div class="img-cols">
-      <div>
+      <div v-if="this.project.bottomImages">
         <img width="100%" :src="`${$config.baseUrl}${this.project.bottomImages[0]}`" />
       </div>
-      <div>
+      <div v-if="this.project.bottomImages">
         <img width="100%" :src="`${$config.baseUrl}${this.project.bottomImages[1]}`" />
       </div>
     </div>
@@ -31,7 +31,7 @@ export default Vue.extend({
       project: {}
     }
   },
-  created() {
+  beforeCreate() {
     projects.forEach((project) => {
       if (project.id.toString() === this.$route.params.id) {
         this.project = project;
