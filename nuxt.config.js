@@ -33,14 +33,22 @@ export default {
   },
 
   publicRuntimeConfig: {
-    // baseUrl: 'https://duanechew.github.io/annazimmerman'
-    baseUrl: 'http://localhost:3000/annazimmerman'
+    baseUrl: 'https://duanechew.github.io/annazimmerman'
+    // baseUrl: 'http://localhost:3000/annazimmerman'
   },
 
   generate: {
     routes: [
-      '/projects/1001/camping-illustrations-for-encamp',
-      '/projects/1002/holiday-illustrations-for-encamp'
+      '/projects/1001/holiday-illustrations-for-encamp',
+      '/projects/1002/camping-illustrations-for-encamp',
+      '/projects/1003/bg-moto-service',
+      '/projects/1004/lead-acid-batteries-ebook',
+      '/projects/1005/linkedin-progressive-ad',
+      '/projects/1006/st-patricks-day-tshirt-grahipc',
+      '/projects/1007/EHS-iconography-for-encamp',
+      '/projects/1008/sustainability-tips-illustrations',
+      '/projects/1009/branding-for-tooma',
+      '/projects/1010/additional-illustrations-for-encamp'
     ]
   },
 
