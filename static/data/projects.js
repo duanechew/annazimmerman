@@ -117,7 +117,7 @@ module.exports = [
     previewImage: '/images/encamp-illustrations/encamp-illustrations-thumbnail.png',
     textA: 'A recent rebrand for Encamp resulted in a new look. Simplistic, two-tone, encamping influenced illustrations were created specifically for a new website launch.',
     textB: 'Using the outdoors visually while also including the simplistic nature of Enamp’s applications was important. It was super fun to illustrate something I’m very passionate about - the healing and calming essence of the outdoors.',
-    topImage: '',
-    bottomImages: []
+    topImage: '/images/encamp-illustrations/encamp-illustrations-top.png',
+    bottomImages: ['/images/encamp-illustrations/encamp-illustrations-bottom-left.png', '/images/encamp-illustrations/encamp-illustrations-bottom-right.png']
   },
 ];
