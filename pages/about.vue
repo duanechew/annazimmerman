@@ -30,7 +30,7 @@
           I've worked with marketing teams and product teams, with agencies and in-house,
           both on teams and independently. <br/>I value accessible and inclusive design above all.
         </div>
-        <Button buttonHref="home" buttonText="Download My Resume" />
+        <Button :buttonHref="`${$config.baseUrl}/images/azimmerman-resume.pdf`" buttonText="Download My Resume" download="Anna_Zimmerman_Resume.pdf" />
       </div>
       <div class="lower-right">
         <div class="section">
@@ -51,7 +51,7 @@
     <CTAWithImage
       :image="`${$config.baseUrl}/images/stretch.png`"
       :header="'Interested in working together?'"
-      :body="'Do you want to learn more about the projects above? Do you want to chat about hiking the Appalachian Trail?'"
+      :body="`Do you want to learn more about the projects above? Do you want to chat about hiking the <a href='https://thetrek.co/author/anna-zimmerman/' target='_blank'><b>Appalachian Trail</b></a>?`"
     />
   </div>
 </template>

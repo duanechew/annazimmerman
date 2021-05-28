@@ -1,6 +1,6 @@
 <template>
   <button>
-    <a :href="buttonHref">
+    <a :href="buttonHref" :download="download ? download : null">
       {{ buttonText }}
     </a>
   </button>
@@ -16,6 +16,10 @@ export default {
     buttonText: {
       type: String,
       default: ''
+    },
+    download: {
+      type: String,
+      default: "false"
     }
   }
 }
