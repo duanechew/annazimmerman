@@ -20,7 +20,7 @@
       <CTAWithImage
         :image="`${$config.baseUrl}/images/stretch.png`"
         :header="'Interested in working together?'"
-        :body="'Do you want to learn more about the projects above? Do you want to chat about hiking the Appalachian Trail?'"
+        :body="`Do you want to learn more about the projects above? Do you want to chat about hiking the <a href='https://thetrek.co/author/anna-zimmerman/' target='_blank'><b>Appalachian Trail</b></a>?`"
       />
     </div>
   </div>

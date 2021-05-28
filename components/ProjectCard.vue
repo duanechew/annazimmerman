@@ -6,8 +6,8 @@
     >
       <div class="card-hover" :style="`background: ${project.previewColor}`">
         <div>
-          <p style="padding-bottom: 5px">{{project.title}}</p>
-          <p style="fontWeight: 600, textTransform: uppercase">{{project.shortDescription}}</p>
+          <p class="title" style="padding-bottom: 5px">{{project.title}}</p>
+          <p class="description" style="fontWeight: 600, textTransform: uppercase">{{project.shortDescription}}</p>
         </div>
       </div>
     </div>
@@ -18,6 +18,25 @@
 import Vue from 'vue';
 
 export default Vue.extend({
+  // head() {
+  //   return {
+  //     script: [
+  //       {
+  //         innerHTML: `
+  //           window.onresize = () => {
+  //             const cards = document.getElementsByClassName('card');
+  //             for(var i = 0; i < cards.length; i++) {
+  //               console.log(cards[i]);
+  //             }
+  //           }
+  //         `,
+  //         type: 'text/javascript',
+  //         charset: 'utf-8'
+  //       }
+  //     ]
+  //   }
+
+  // },
   props: {
     project: {
       type: Object,
@@ -41,6 +60,15 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
+.title {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.description {
+  font-size: 16px;
+}
+
 .card {
   position: relative; 
   background-size: cover;

@@ -1,6 +1,6 @@
 <template>
   <div class="wrap1280">
-    <Breadcrumbs :links="[{ title: 'About', href: '/about' }]" />
+    <Breadcrumbs :links="[{ title: 'About', href: `${$config.baseUrl}/about` }]" />
     <div class="outer">
       <div class="upper">
         <div>
@@ -26,9 +26,9 @@
         <div class="headline is-pink">
           Services
         </div>
-        <div style="padding-bottom:2.5rem;">
-          I've worked with marketing teams and product teams, in agencies and in-house,
-          both on teams and independently. I value accessible and inclusive design above all.
+        <div style="padding-bottom:2.5rem; padding-right: 2.5rem;">
+          I've worked with marketing teams and product teams, with agencies and in-house,
+          both on teams and independently. <br/>I value accessible and inclusive design above all.
         </div>
         <Button buttonHref="home" buttonText="Download My Resume" />
       </div>

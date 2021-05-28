@@ -35,8 +35,7 @@ export default {
   },
 
   publicRuntimeConfig: {
-    baseUrl: 'https://duanechew.github.io/annazimmerman'
-    // baseUrl: 'http://localhost:3000/annazimmerman'
+    baseUrl: process.env.NODE_ENV === 'development' ? 'http://localhost:3000/annazimmerman' : 'https://duanechew.github.io/annazimmerman'
   },
 
   generate: {

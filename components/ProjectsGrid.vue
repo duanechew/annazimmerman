@@ -40,7 +40,7 @@ export default Vue.extend({
   },
   created() {
     this.projectColumns = divideProjects(this.projects);
-  }
+  },
 })
 </script>
 
@@ -48,23 +48,27 @@ export default Vue.extend({
 .projects-grid {
   margin: 0 auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-content: stretch;
 }
 
 .column {
-  flex-basis: 33.3%;
-  &:first-child {
-    margin-top: 40px;
-  }
-  &:nth-child(3){
-    margin-top: 40px;
-  }
-  &:nth-child(4) {
-    margin-top:80px;
-  }
-  &:last-child {
-    margin-top: 40px;
+  flex-basis: 100%;
+  @media screen and (min-width: 1200px) {
+    flex-basis: 20%;
+    &:first-child {
+      margin-top: 40px;
+    }
+    &:nth-child(3){
+      margin-top: 40px;
+    }
+    &:nth-child(4) {
+      margin-top:80px;
+    }
+    &:last-child {
+      margin-top: 40px;
+    }
   }
 }
 </style>

@@ -8,7 +8,7 @@
       </div>
       <div style="padding-left: 60px;">
         <p class="headline is-yellow">{{ header }}</p>
-        <p>{{ body }}</p>
+        <p v-html="body"></p>
         <EmailButton :buttonText="'Email Me'" />
       </div>
     </div>

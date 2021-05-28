@@ -1,7 +1,7 @@
 <template>
   <div class="outer">
     <a class="breadcrumb" href="/">Home</a>
-    <span v-for="(link, i) of links" v-bind:key="i">
+    <span style="font-size: 16px" v-for="(link, i) of links" v-bind:key="i">
       <span class="pointer">></span>
       <a class="breadcrumb" :href="link.href">
         {{ link.title }}
@@ -34,11 +34,30 @@ export default {
   color: white;
   text-decoration: none;
   transition: all .5s ease;
-  font-size: 1rem;
+  font-size: 16px;
   letter-spacing: 2px;
+  text-transform: uppercase;
   font-weight: 600;
-  &:hover {
+  position: relative;
+  padding-bottom: 5px;
+  /* &:hover {
     color: #c76253;
+  } */
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: all 0.5s ease;
+  }
+  &:hover {
+    &:after {
+      left: 0;
+      width: 100%;
+    }
   }
 }
 </style>

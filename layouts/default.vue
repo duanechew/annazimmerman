@@ -27,6 +27,15 @@ html {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #EF476F;
+  transition: all .5s ease;
+  &:hover {
+    color: white;
+  }
+}
+
 .wrap1280 {
   max-width: 1200px;
   margin: 0 auto;
