@@ -3,9 +3,6 @@ import projects from "./static/data/projects"
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  router: {
-    base: '/annazimmerman/'
-  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -35,7 +32,7 @@ export default {
   },
 
   publicRuntimeConfig: {
-    baseUrl: 'https://duanechew.github.io/annazimmerman',
+    baseUrl: 'http://annaezimmerman.com',
     // baseUrl: 'http://localhost:3000/annazimmerman'
   },
 
