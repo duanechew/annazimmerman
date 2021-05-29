@@ -2,14 +2,14 @@
   <div class="wrap1280">
     <div class="cta-with-image">
       <div class="image">
-        <div style="text-align: center;">
-          <img max-width="100%" width="500" :src="`${image}`" />
-        </div>
+        <img width="100%" :src="`${image}`" />
       </div>
-      <div style="padding-left: 60px;">
+      <div class="text">
         <p class="headline is-yellow">{{ header }}</p>
         <p v-html="body"></p>
-        <EmailButton :buttonText="'Email Me'" />
+        <div class="button">
+          <EmailButton :buttonText="'Email Me'" />
+        </div>
       </div>
     </div>
   </div>
@@ -46,28 +46,34 @@ export default {
   border-top: solid 1px white;
   display: flex;
   flex-wrap: wrap;
-  p {
-    padding-bottom: 50px;
-  }
-  div, .image {
-    flex-basis: 50%;
-  }
-  @media screen and (max-width: 800px) {
-    div, .image {
-      flex-basis: 100%;
-    }
-    .image {
-      padding-bottom: 40px;
-    }
-
-  }
 }
 
 .image {
   display: flex;
   align-items: center;
+  margin-bottom: 80px;
   div {
     flex-basis: 100%;
+  }
+}
+
+.image, .text {
+  flex-basis: 100%;
+}
+
+.button {
+  margin: 60px auto 0 auto;
+}
+
+@media screen and (min-width: 900px) {
+  .image, .text {
+    flex-basis: 50%;
+  }
+  .text {
+    padding-left: 60px;
+  }
+  .button {
+    margin: 60px 0 0 0;
   }
 }
 </style>

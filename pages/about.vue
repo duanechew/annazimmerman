@@ -28,7 +28,7 @@
         </div>
         <div style="padding-bottom:2.5rem; padding-right: 2.5rem;">
           I've worked with marketing teams and product teams, with agencies and in-house,
-          both on teams and independently. <br/>I value accessible and inclusive design above all.
+          both on teams and independently. I value accessible and inclusive design above all.
         </div>
         <Button :buttonHref="`${$config.baseUrl}/images/azimmerman-resume.pdf`" buttonText="Download My Resume" download="Anna_Zimmerman_Resume.pdf" />
       </div>
@@ -68,9 +68,12 @@
   display: flex;
   justify-content: space-between;
   border-bottom: solid 1px white;
-  /* align-items: center; */
+  flex-wrap: wrap;
   div {
-    flex-basis: 48%;
+    flex-basis: 100%;
+    @media screen and (min-width: 900px) {
+      flex-basis: 48%;
+    }
   }
   .first {
     padding-top: 1rem;
@@ -88,19 +91,28 @@
 .lower {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .lower-left {
-  flex-basis: 60%;
+  flex-basis: 100%;
   .headline {
     padding-bottom: 1.5rem;
+  }
+  @media screen and (min-width: 900px) {
+    flex-basis: 60%;
   }
 }
 
 .lower-right {
-  flex-basis: 38%;
+  margin-top: 60px;
+  flex-basis: 100%;
   .section {
     padding-bottom: 2.5rem;
+  }
+  @media screen and (min-width: 900px) {
+    flex-basis: 38%;
+    margin-top: 0;
   }
 }
 </style>
