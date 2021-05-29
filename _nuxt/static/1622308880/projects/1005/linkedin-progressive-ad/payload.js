@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/1005/linkedin-progressive-ad", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/1004/lead-acid-batteries-ebook", {data:[{}],fetch:{},mutations:void 0});
